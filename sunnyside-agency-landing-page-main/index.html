@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
-<body class="font-barlow text-lg">
+<body class="font-barlow text-lg text-customdarkgrayish">
   <header class="text-white bg-header bg-cover bg-center h-[75vh] p-8 relative">
     <nav class="flex flex-row justify-between relative">
       <div>
@@ -37,17 +37,23 @@
     </div>
   </header>
 
-  <section>
-    <h3>
-      Transform your brand
-    </h3>
-    <p>
-      We are a full-service creative agency specializing in helping brands grow fast. 
-      Engage your clients through compelling visuals that do most of the marketing for you.
-    </p>
-    <a href="#" target="_blank" rel="noopener noreferrer">
-      Learn more
-    </a>
+  <section class="flex xl:flex-row flex-col-reverse">
+    <div class="w-1/2 p-28 flex flex-col justify-center">
+      <h3 class="text-5xl font-fraunces font-extrabold text-customdarkblue lg:mb-12">
+        Transform your brand
+      </h3>
+      <p class="lg:mb-12">
+        We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <a href="#" target="_blank" rel="noopener noreferrer" class="text-customdarkblue uppercase font-fraunces underline decoration-8 decoration-customyellow underline-offset-[-4px]">
+        Learn more
+      </a>
+    </div>
+    <div class="w-1/2">
+      <img src="./images/desktop/image-transform.jpg" alt="Image display egg" srcset="" class="w-full">
+    </div>
+    
   </section>
 
   <section>
